@@ -9,3 +9,97 @@ body{
   border: green 1px solid;
   background-color: white;
 }
+
+.photo{
+  float: left;
+  margin-right: 30px;
+}
+
+
+
+.curry_picture:after{
+  content: "";
+  clear: both;
+  display: bloack;
+}
+
+.explation{
+  float: left;
+  width: 468px;
+}
+
+dt{
+  clear: left;
+  float: left;
+  front-weight: bold;
+}
+
+.bth{
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  margine: 5px;
+  width: 10px;
+  height: 40px;
+  padding: 10px;
+  broder: none;
+  font-size: 16px;
+}
+
+.btn:hover {/* マウスが乗った時　*/
+  opacity: 0.7;
+}
+
+.btn:active {/* ボタンを押したとき　*/
+  color: white;
+}
+
+.btn-submit{/* okボタンをだけの設定　*/
+  backbround-color: silber;
+}
+
+.btn-reset{*/ リセットボタンだけの設定　*/
+  background-color: lightcoral;
+}
+
+#ingredient{
+  border: 2px solid lightcoral;
+  border-collapse: collapse;
+}
+
+th{
+  border: 1px solid lightcoral;
+  background-color: mistyrose;
+  padding: 5px;
+  width 100px;
+  text-align: center;
+}
+
+td{
+  border: 1px solid lightcoral;
+  padding: 5px;
+  width 80px;
+  text-align: right;
+}
+
+caption{
+  padding: 5px;
+}
+
+#price{
+  background-color: lightcolar;
+}
+
+thead th, tfoot th{
+  background-color: white;
+}
+
+thead td{
+  color: white;
+  background-color: lightcoral;
+  text-align: center;
+}
+
+tfood td{
+  font-weight: bold;
+  backgroundd-color: white;
+}
